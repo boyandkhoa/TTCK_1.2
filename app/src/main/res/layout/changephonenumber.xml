@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/boder_layout"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đổi số điện thoại"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtNewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại mới"
+        android:inputType="number" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/radius_button"
+            android:text="Hủy"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/radius_button2"
+            android:text="Lưu"
+            android:textColor="#FFFF" />
+    </LinearLayout>
+</LinearLayout>

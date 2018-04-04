@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="10dp"
+
+    tools:context="vision.google.com.qrcodescanner.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="35dp"
+            app:srcCompat="@drawable/pnlogo"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtUserName"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:text="Username: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtName"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:text="Họ tên: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtPhone"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:text="Phone: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtActive"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:text="Trạng thái: Kích hoạt"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtAdmin"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:textColor="#FFFF"
+            android:textSize="17dp"
+            android:text="Chức vụ:"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/btChangPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radius_button"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:text="Đổi mật khẩu"
+            android:textColor="#ffff"
+            android:onClick="btChangePassword"/>
+        <Button
+            android:id="@+id/btChangPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radius_button3"
+            android:padding="5dp"
+            android:textSize="12dp"
+            android:text="Đổi SĐT"
+            android:textColor="#ffff"
+            android:onClick="btChangePhoneNumber"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

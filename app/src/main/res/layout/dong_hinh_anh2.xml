@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:gravity="left">
+
+        <ImageView
+            android:id="@+id/RowImg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_noimage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/RowName2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Tên: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowIMEI2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="IMEI: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowGia2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Giá: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowLoai2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Loại: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowNguoiNhap2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="NV: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowNgayNhap2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Ngày: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowBH2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="BH: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowKhachHang2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="KH: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RowSdtKhachHang2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Sđt KH: "
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

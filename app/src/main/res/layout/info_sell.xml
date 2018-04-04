@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/boder_layout"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thông tin bán"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Tên: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtImei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="IMEI: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Loại: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Giá: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtBaoHanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Bảo hành: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtNguoiBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Người bán: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtNgayBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Ngày bán: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Tên KH: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPhoneCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="SĐT KH: "
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Nhắc nhở: Gữi tin nhắn xác nhận cho khách hàng"
+        android:textColor="#FF0000"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="13dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/radius_button"
+            android:text="Hủy"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/radius_button3"
+            android:text="SMS"
+            android:textColor="#FFFF" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/radius_button2"
+            android:text="Bán"
+            android:textColor="#FFFF" />
+    </LinearLayout>
+</LinearLayout>

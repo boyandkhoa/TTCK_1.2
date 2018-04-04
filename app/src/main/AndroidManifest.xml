@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vision.google.com.qrcodescanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pnlogo"
+        android:label="PN Mobile"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ScanActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".SrollView" />
+        <activity android:name=".SellActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ManagerEmployeeActivity" />
+        <activity android:name=".UpdatePhoneActivity"></activity>
+    </application>
+
+</manifest>

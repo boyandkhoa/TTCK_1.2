@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "637315980610",
+    "firebase_url": "https://phuongnammobile-8106e.firebaseio.com",
+    "project_id": "phuongnammobile-8106e",
+    "storage_bucket": "phuongnammobile-8106e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637315980610:android:3a8ddffa7cf3c75f",
+        "android_client_info": {
+          "package_name": "vision.google.com.qrcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637315980610-miuu23jmlb6dkedrg2k11p1enln3e142.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYGuqOETlWtPSwBVkaxBNuW5EiHLL1W-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

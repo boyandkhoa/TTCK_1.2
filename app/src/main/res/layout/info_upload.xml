@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/boder_layout"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thông tin điện thoại"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtTen"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMEI: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtImei"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtLoai"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtGia"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bảo hành: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtBaoHanh"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người nhập: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtNguoiNhap"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày nhập: "
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:id="@+id/txtNgayNhap"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Sửa"
+            android:id="@+id/btnSua"
+            android:background="@drawable/radius_button"
+            android:textColor="#FFFF"
+            />
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Lưu"
+            android:id="@+id/btnPost"
+            android:background="@drawable/radius_button2"
+            android:textColor="#FFFF"
+            />
+    </LinearLayout>
+</LinearLayout>
